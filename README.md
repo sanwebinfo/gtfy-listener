@@ -75,11 +75,13 @@ docker docker rmi (imageid)
 docker image prune
 docker builder prune --all -f
 docker system prune --all
+docker rm $(docker ps -all -q)
+docker rmi $(docker image ls -q)
 ```
 
 ## Inspiration
 
-Pushtify (Gotify to Pushover forwarder) - <https://github.com/sebw/pushtify/tree/main>
+Pushtify (Gotify to Pushover forwarder) - <https://github.com/sebw/pushtify>
 
 ## LICENSE
 
