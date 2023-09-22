@@ -34,7 +34,7 @@ python3 gtfy.py
 
 ## Docker 🐬
 
-Keep Running Python the Script in Docker forever  
+Keep Running the Python Script in Docker  
 
 - Update the `.dockerfile` before build - Replace example `ENV` with yours  
 
