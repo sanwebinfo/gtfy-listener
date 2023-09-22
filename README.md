@@ -1,5 +1,7 @@
 # GTFY 🚀
 
+[![docker-image](https://github.com/sanwebinfo/gtfy-listener/actions/workflows/docker.yml/badge.svg)](https://github.com/sanwebinfo/gtfy-listener/actions/workflows/docker.yml)  
+
 Gotify to `Ntfy.sh` forwarder
 
 Forward Gotify Push Messages 🚀 to `Ntfy.sh` Push server by using websocket 🛸
