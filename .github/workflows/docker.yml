@@ -15,4 +15,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3.5.0
       - name: Build Docker image 
-        run: docker build . -t="gtfy-listener"
+        run: docker build . --file Dockerfile --tag gtfy-listener:$(date +%s)
